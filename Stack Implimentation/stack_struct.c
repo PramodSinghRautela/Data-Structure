@@ -37,7 +37,7 @@ void DISPLAY(st arr[],int *top)
        else
           printf("Elements in stack are:\n");
           for(int i=(*top);i!=-1;i--)
-            printf("%d\n",arr[(*top)].data);
+            printf("%d\n",arr[i].data);
 }
 int main()
 {
