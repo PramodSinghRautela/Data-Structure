@@ -66,7 +66,7 @@ int main()
     rear=front=-1;
     do
     {
-       printf("Queue operations are:\n1.EnQueue\n2.DeQueue\n3.Peek\n4.Display\n0.Exit\n");
+       printf("Queue operations are:\n  1.EnQueue\n  2.DeQueue\n  3.Peek\n4.Display\n  0.Exit\n");
        printf("Enter your choice:");
        scanf("%d",&c);
           switch(c) 
